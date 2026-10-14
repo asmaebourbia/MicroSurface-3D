@@ -1,0 +1,19 @@
+flowchart TD
+  subgraph SyntheticData[Procedural surfaces]
+    A[Anisotropic Gaussian height fields] --> B[Measured RMS slope and anisotropy]
+  end
+  B --> C[Conditional GAN generator]
+  Z[Random latent vector] --> C
+  A --> D[Adversarial discriminator]
+  C --> D
+  C --> E[Differentiable geometry consistency]
+  E --> C
+  C --> F[Generated height map]
+  F --> G[Normals and orientation histogram]
+  F --> H[Adaptive 2.5D triangle mesh]
+  G --> I[Anisotropic GGX analytical surrogate]
+  subgraph Reconstruction[Independent photometric-stereo module]
+    A --> J[9 calibrated Lambertian views]
+    J --> K[Least-squares normal estimation]
+    K --> L[Fourier height integration]
+  end

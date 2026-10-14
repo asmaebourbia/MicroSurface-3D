@@ -1,0 +1,7 @@
+{
+  "height_rmse_grid_units": 0.0039617507718503475,
+  "normal_mean_angular_error_deg": 0.16262294352054596,
+  "num_lights": 9,
+  "noise_std": 0.002,
+  "note": "idealized Lambertian, calibrated lights, periodic surface, no occlusions"
+}

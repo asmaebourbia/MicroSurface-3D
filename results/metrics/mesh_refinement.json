@@ -1,0 +1,10 @@
+{
+  "adaptive_vertices": 500,
+  "regular_vertices": 484,
+  "adaptive_triangles": 936,
+  "regular_triangles": 882,
+  "adaptive_height_rmse": 0.04139580950140953,
+  "regular_height_rmse": 0.042658474296331406,
+  "adaptive_vertex_budget": 500,
+  "note": "Adaptive 2.5D Delaunay refinement; not a general 3D mesh operator."
+}

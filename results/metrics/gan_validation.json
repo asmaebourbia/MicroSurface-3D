@@ -1,0 +1,13 @@
+{
+  "num_validation_samples": 100,
+  "rms_slope_mae": 0.006805849261581898,
+  "anisotropy_ratio_mae": 0.057130470871925354,
+  "log_anisotropy_mae": 0.0507577620446682,
+  "normal_orientation_js_proxy": 0.001125637581476043,
+  "fixed_condition_pairwise_height_rmse": 0.43651971220970154,
+  "notes": [
+    "No paired geometry targets: many heights may share one optical descriptor.",
+    "Orientation histogram is a proxy, not a calibrated NDF.",
+    "GGX curves are a descriptor-based surrogate, not measured BRDF."
+  ]
+}
