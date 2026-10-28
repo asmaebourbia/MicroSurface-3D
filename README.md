@@ -1,8 +1,5 @@
 # MicroSurface-3D
 
-**Génération conditionnelle de microtopographies synthétiques, reconstruction stéréophotométrique et analyse géométrique/optique**  
-*Conditional GAN · Height fields (2.5D) · Normal distributions · Photometric stereo · Adaptive triangulation · GGX surrogate*
-
 [**English documentation**](README_EN.md) · [Protocole expérimental](PROTOCOL.md) · [Figures](docs/figures/) · [Résultats numériques](results/metrics/) · [Provenance des résultats](docs/RESULTS_PROVENANCE.md)
 
 
