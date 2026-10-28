@@ -1,13 +1,9 @@
 # MicroSurface-3D
 
-**Conditional generation of synthetic microstructured height fields, photometric stereo, and geometry/optics analysis**  
-*Conditional GAN · 2.5D height fields · Orientation distributions · Adaptive Delaunay meshing · Anisotropic GGX surrogate · SLURM*
+
 
 [**Lire en français / French README**](README.md) · [Experimental protocol](PROTOCOL.md) · [Figures](docs/figures/) · [Numerical results](results/metrics/) · [Results provenance](docs/RESULTS_PROVENANCE.md)
 
-> **Scope:** an independently developed, exploratory **synthetic-data research prototype**. It does not use DG-MBSR, DINOv2, or super-resolution architectures. Its motivation is related to controlled optical surface appearance and the research themes of XLIM's APPEARANCE_ON_DEMAND PhD opportunity, but it is **not official XLIM software** and **does not solve the general inverse BRDF-to-geometry problem**.
-
-## Abstract
 
 A microstructured surface can be described by a height field $h(x,y)$. Its local slopes determine surface normals, which influence light reflection under a suitable physical model. **MicroSurface-3D** investigates whether a **conditional generative adversarial network (cGAN)** can generate *different* height fields with controlled slope statistics, and evaluates related geometry processing and appearance proxies. The project features a differentiable geometric consistency penalty, 2.5D mesh generation and error-driven refinement, a descriptor-to-GGX analytical surrogate, and a **separate** calibrated synthetic photometric-stereo reconstruction module.
 
