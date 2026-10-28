@@ -5,7 +5,7 @@
 
 [**English documentation**](README_EN.md) · [Protocole expérimental](PROTOCOL.md) · [Figures](docs/figures/) · [Résultats numériques](results/metrics/) · [Provenance des résultats](docs/RESULTS_PROVENANCE.md)
 
-> **Statut — prototype exploratoire évalué sur des données synthétiques.** Projet personnel autonome, sans utilisation de DG-MBSR, de DINOv2 ou d'un modèle de super-résolution. Il est motivé par des questions de génération de microstructures et d'apparence optique, notamment celles rencontrées dans le domaine du projet de thèse **APPEARANCE_ON_DEMAND (XLIM)**. Il **ne s'agit ni d'un code officiel du laboratoire ni d'une reproduction validée de sa méthode**.
+
 
 ## Résumé scientifique
 
